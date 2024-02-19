@@ -1,0 +1,248 @@
+header{
+    background-color: white;
+    color: #fff;
+    text-align: center;
+    display: inline;
+    padding: 0;
+    line-height: 0;
+    
+    }
+    .con{
+        height: 30%;
+        
+    }
+    a{
+        background-color:#426482;
+        color: white;
+        text-decoration: none;
+       border-radius: 5%;
+      width: 0%;
+     
+        height: 100px;
+        padding: 20px;
+        box-sizing: border-box;
+         
+    }
+    body{
+        background-color: color #e6e6e6;
+    }
+    
+    
+    .container1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #f0f0f0;
+        margin: auto;
+        width: 100%;
+        
+    }
+    
+.article {
+    flex: 1;
+    padding: 0;
+}
+.para1{
+    text-align: center;
+}
+.article1 {
+    background-color: #426482;
+    border: solid #426482;
+    border-radius: 5px;
+    height: 50px;
+    margin-right: 0;
+    color: white;
+    font-size: 15px;
+}
+.articl {
+    background-color:white;
+    border: solid #426482;
+    border-radius: 5px;
+    height: 50px;
+    margin-right: 40px;
+    color:#426482;
+    font-size: 15px;
+}
+.banniere {
+    flex: 1;
+}
+
+.para {
+    text-align: center;
+}
+
+
+section {
+    text-align: center;
+    padding: 9%;
+    background-color: steelblue;
+    text-decoration-color: white;
+    color: #f0f0f0;
+    margin-top: 0px;
+    
+}
+
+.title {
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.article2 {
+    width: 1000px;
+    height: 400px; 
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    
+    
+}
+.grand_div5{
+    width: 80%;
+    margin: auto;
+}
+.div5{
+    background-color: #426482;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+}
+input,textarea{
+    width: 100%;
+}
+.article2 img {
+    width: 700;
+    height: 60;
+}
+.para6{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+textarea{
+    border: none;
+    border-radius: 5px;
+}
+label{
+    color: white;
+    margin: 5px;
+}
+
+/* Style pour la section "Ils nous font confiance !" */
+.box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    justify-content: center;
+    
+}
+.box img[src$="Ellipse1.png"],
+.box img[src$="Ellipse 2.png"]{
+    margin-top: -70px;
+    text-size-adjust: none;
+   
+}
+.article4{
+    padding: 20px;
+    text-align: center;
+    border: solid #426482;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.article5{
+    padding: 20px;
+    text-align: center;
+    border: solid #426482;
+    border-radius: 10px;
+    
+    
+}
+.article4 h1, .article5 h1 {
+    margin: 20px;
+}
+
+/* Style pour la section "Contact" */
+.contact
+.contact {
+    text-align: left;
+    margin-top: 10%;
+    background-color: #426482;
+    
+    
+}
+
+.article2 {
+    width: 1000px;
+    height: 400px; 
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    
+    
+}
+
+.article2 img {
+    width: 1000;
+    height: 900;
+}
+
+/* Style pour la sectn "ParBa" et "A Propos" */
+.para {
+    display: flex;
+    justify-content: black;
+    align-items: center;
+    padding: 20px;
+    margin-top: 60px;
+    text-decoration-color: #f0f0f0;
+    font-size: larger;
+    color: white;
+    background-color: black;
+}
+.apropos{
+    margin-left: auto;
+}
+h4 {
+    color: #426482;
+    text-decoration: overline;
+    font-size: 30px;
+}
+
+.Parba, .apropos {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style pour le footer */
+footer {
+    background-color:black;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: top 0;
+    
+    
+}
+
+.icone3 {
+    padding-right: 60px;
+    
+}
+input{
+    width: 20rem;
+    margin-bottom: 10px ;  
+}
+.para1{
+    padding: 100px;
+}
